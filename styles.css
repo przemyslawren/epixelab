@@ -212,6 +212,7 @@ a {
 .video {
   margin-bottom: 146.01px;
 }
+
 .video-text {
   flex-direction: column;
   display: block;
@@ -235,10 +236,10 @@ a {
   font-size: 16px;
   line-height: 26px;
   color: rgba(21, 20, 57, 0.4);
-  margin-bottom: 120px;
 }
 
 .white-button {
+  display: inline-block;
   border: 2px solid #ebeaed;
   background-color: #fff;
   border-radius: 100px;
@@ -250,16 +251,17 @@ a {
   text-align: center;
   color: #1e0e62;
   padding: 13px 38px;
-  margin: 25px 0;
-}
-
-.video {
-  position: relative;
+  margin-top: 180px;
 }
 
 .video-thumbnail {
+  position: relative;
+}
+
+.video-thumbnail img {
   vertical-align: bottom;
 }
+
 .video-play {
   position: absolute;
   left: 50%;
@@ -371,28 +373,28 @@ a {
 
 .about-us-social-table {
   width: 100%;
-  justify-content: space-between;
+  height: 59.5px;
   margin-top: 35px;
-}
-
-.about-us-icon-box {
-  width: 33.3%;
-  color: rgba(21, 20, 57, 0.4);
   border-top: 2px solid #ebeaed;
+  align-items: stretch;
 }
 
-.twitter-box {
+.about-us-social-table .icons {
+  display: flex;
+  flex-grow: 1;
   border-right: 2px solid #ebeaed;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.dribbble-box {
-  border-left: 2px solid #ebeaed;
+.about-us-social-table .icons:last-child {
+  border-right: none;
 }
 
 .about-us-icon {
   font-size: 22px;
   color: rgba(21, 20, 57, 0.4);
-  padding: 16.8px 47.5px;
 }
 
 /* Footer Section */
