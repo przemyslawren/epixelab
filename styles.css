@@ -77,18 +77,18 @@ a {
 
 /* Navbar Section */
 
-#navbar {
+.navbar {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 48px;
 }
 
-#navbar img {
+.navbar img {
   width: 240px;
 }
 
-#navbar .orange-button {
+.navbar .orange-button {
   padding: 10px 30px;
 }
 
@@ -124,11 +124,11 @@ a {
 
 /* Get Started Section */
 
-#info {
+.info {
   flex-wrap: wrap;
 }
 
-#info .orange-button {
+.info .orange-button {
   padding: 11px 34px 9px;
 }
 
@@ -157,13 +157,13 @@ a {
 
 /* Features Section */
 
-#features {
+.features {
   flex-direction: column;
   text-align: center;
   margin-bottom: 181.01px;
 }
 
-#features .orange-button {
+.features .orange-button {
   padding: 11px 36px 9px;
 }
 
@@ -209,11 +209,12 @@ a {
 
 /* Video Section */
 
-#video {
+.video {
   margin-bottom: 146.01px;
 }
 .video-text {
   flex-direction: column;
+  display: block;
 }
 
 .video-title {
@@ -241,7 +242,6 @@ a {
   border: 2px solid #ebeaed;
   background-color: #fff;
   border-radius: 100px;
-  width: 57px;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -257,6 +257,9 @@ a {
   position: relative;
 }
 
+.video-thumbnail {
+  vertical-align: bottom;
+}
 .video-play {
   position: absolute;
   left: 50%;
@@ -274,7 +277,7 @@ a {
 
 /*Testimonials Section */
 
-#testimonials {
+.testimonials {
   flex-direction: column;
   text-align: center;
   margin-bottom: 142px;
@@ -324,7 +327,7 @@ a {
 
 /* About Us Section */
 
-#about-us {
+.about-us {
   flex-direction: column;
   text-align: center;
   margin-bottom: 63px;
@@ -394,7 +397,7 @@ a {
 
 /* Footer Section */
 
-#footbar {
+.footbar {
   justify-content: space-between;
   margin-bottom: 31px;
 }
