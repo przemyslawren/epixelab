@@ -1,3 +1,3 @@
-Epixelab
+### Epixelab
 
-Simple static website built with HTML and CSS.
+#### Simple static website built with HTML and CSS.
